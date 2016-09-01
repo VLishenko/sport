@@ -1,0 +1,130 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	/*Main Content*/
+	.main-content-projection {
+		height: 220px;
+	}
+
+	.expert-item {
+		margin-left: 23px;
+	}
+	.main-aside {
+		margin-right: -10px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	/*Header*/
+	.header-delivery-btn {
+		margin-right: 0px
+	}
+	.mail,
+	.phone {
+		display: block;
+		margin: 30px auto;
+
+	}
+	.mail {
+		width: 205px;
+	}
+	.phone {
+		width: 274px;
+	}
+	.header-delivery-btn {
+		float: none;
+		margin: auto;
+	}
+
+	/*Main Content*/
+	.projection-title--position {
+		padding-right: 0;
+	}
+
+	.main-content-projection h3 {
+		font-size: 30px;
+	}
+	.main-content-projection {
+		height: 240px;
+	}
+	
+	.expert-item-wrap {
+		justify-content: space-around; 
+	}
+	.expert-item {
+		margin-left: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*Main Content*/
+	.main-content-projection {
+		text-align: center;
+		height: auto;
+	}
+
+	.main-content-projection img {
+		float: none;
+		margin-right: 0;
+	}
+	.main-content-projection h3 {
+		display: block;
+		font-size: 21px;
+	}
+	.main-content-projection a {
+		margin-left: 0;
+		font-size: 18px;
+	}
+	.main-content-projection p {
+		padding: 0px 22px 20px 22px;
+		font-size: 16px;
+		line-height: 21px;
+	}
+	
+	.main-content-projection .main-content-projection-details {
+		position: relative;
+		right: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
