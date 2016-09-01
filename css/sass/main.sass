@@ -27,6 +27,15 @@ body input:required:valid,
 body textarea:required:valid
 	color: green
 
+//Footer up to the bottom
+.site-wrapper
+	display: flex
+	flex-direction: column
+	min-height: 100vh
+	margin: 0
+.main
+	flex: 1 
+
 .hidden
 	display: none
 
@@ -231,7 +240,8 @@ a
 	width: 164px
 	float: right
 	margin-bottom: 20px
-	&:last-child
+.aside	
+	div[class *= "ad-h"]:last-child
 		margin-bottom: 0
 
 //Footer
@@ -252,3 +262,63 @@ a
 	.phone
 		display: inline-block
 		margin-bottom: 29px
+
+.page-wrapper
+	display: flex
+	flex-direction: column
+	height: 100%
+
+
+//Content page
+.content-article
+	font-family: Lato
+	font-weight: 400
+	h1
+		color: #373737
+		font-size: 40px
+		font-weight: 800
+		text-align: center
+		margin-top: 14px
+		margin-bottom: 5px
+		letter-spacing: 2.1px
+	.content-img
+
+		img
+			width: 100%
+			max-width: 346px
+			height: auto
+			float: right
+			padding-left: 35px
+			padding-bottom: 5px
+	strong
+		font-family: Lato
+		font-size: 18px
+		font-weight: 700
+	p
+		font-family: "LiberationSerif"
+		font-size: 14px
+	a
+		color: #fe5e10
+.share-buttons
+	text-align: center
+	float: right
+	span
+		display: block
+		width: 230px
+		font-family: Lato
+		font-size: 18px
+		font-weight: 800
+		line-height: 17px
+	a
+		display: inline-block
+		content: ''
+		width: 50px
+		height: 50px
+		margin: 10px 10px 5px 10px 
+
+	.vk-link
+		background: url(../img/vk-link.jpg) no-repeat center
+	.facebook-link
+		background: url(../img/facebook-link.jpg) no-repeat center
+	.ok-link
+		background: url(../img/ok-link.jpg) no-repeat center

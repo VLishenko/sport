@@ -2,7 +2,7 @@
 	require 'header.php';
 ?>
 
-	<main class="main-content">
+	<main class="main main-content">
 		<div class="container">
 			<div class="row">
 				

@@ -10,7 +10,7 @@
 	.expert-item {
 		margin-left: 23px;
 	}
-	.main-aside {
+	.aside {
 		margin-right: -10px;
 	}
 }
@@ -111,6 +111,10 @@
 	.main-content-projection .main-content-projection-details {
 		position: relative;
 		right: 0;
+	}
+	.content-article .content-img img {
+		float: none;
+		padding: 0;
 	}
 }
 
