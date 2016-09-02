@@ -66,5 +66,9 @@
 </main>
 
 <?php 
+	require 'content-ad-bottom.php';
+?>
+
+<?php 
 	require 'footer.php';
 ?>
