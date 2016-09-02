@@ -14,10 +14,6 @@
 			</div>
 
 		</div>
-		
-		<a href="#">
-			<p>ssa</p>
-		</a>
 
 	</div> <!-- .row -->
 </div> <!-- .container -->
