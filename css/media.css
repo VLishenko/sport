@@ -10,7 +10,8 @@
 	.expert-item {
 		margin-left: 23px;
 	}
-	.main-aside {
+	.aside
+	 {
 		margin-right: -10px;
 	}
 }
@@ -80,6 +81,21 @@
 	.footer-block .phone {
 		margin: 0 0 29px 0;
 	}
+
+	.content-article {
+		text-align: center;
+		padding: 0 10px;
+	}
+	.content-article h1 {
+		font-size: 30px;
+	}
+	.share-buttons {
+		float: none;
+		margin-top: 30px;
+	}
+	.share-buttons span {
+		width: 100%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -111,6 +127,10 @@
 	.main-content-projection .main-content-projection-details {
 		position: relative;
 		right: 0;
+	}
+	.content-article .content-img img {
+		float: none;
+		padding: 0;
 	}
 }
 
